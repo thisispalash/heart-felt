@@ -10,7 +10,13 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   return (
-    <VStack spacing={4} h='100vh' w='100vw' px={12}>
+    <VStack 
+      h='100vh' w='100vw' 
+      px={12}
+      spacing={4} 
+      bg='background'
+      color='text'
+    >
       <Spacer />
       <WelcomeScreen />
       <Spacer />

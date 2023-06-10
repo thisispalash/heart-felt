@@ -1,7 +1,7 @@
 import { Button } from "@chakra-ui/react";
 
 
-export default function EnterSiteButton({ }) {
+export default function EnterSiteButton({ ...props }) {
 
   const enterSite = async () => {}
 
@@ -10,6 +10,7 @@ export default function EnterSiteButton({ }) {
       size='lg'
       variant='outline'
       onClick={enterSite}
+      colorScheme='highlightScheme'
     >
       Enter Site
     </Button>
