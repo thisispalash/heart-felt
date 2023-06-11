@@ -1,9 +1,12 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
+import CustomHead from '@/components/compounds/Head';
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        <CustomHead />
+      </Head>
       <body>
         <Main />
         <NextScript />
