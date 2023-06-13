@@ -1,0 +1,10 @@
+html {
+  padding: 0;
+  margin: 0;
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+&::-webkit-scrollbar {
+  display: 'none'
+}

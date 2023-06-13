@@ -25,5 +25,14 @@
     "react-icons": "^4.8.0",
     "react-redux": "^8.0.5",
     "typescript": "5.0.4"
+  },
+  "contributors": [
+    {
+      "name": "@thisispalash",
+      "url": "https://thisispalash.com"
+    }
+  ],
+  "engines": {
+    "node": "^18.0.0"
   }
 }
